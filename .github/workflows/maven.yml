@@ -12,7 +12,7 @@ on:
   push:
     branches: [ "main" ]
   release:
-    branches: [ "created" ]
+    type: [ "created" ]
 
 jobs:
   build:
